@@ -1,0 +1,6 @@
+partial interface SharedWorkerGlobalScope {
+    [RuntimeEnabled=EncodingAPI] attribute TextDecoderConstructor TextDecoder;
+    [RuntimeEnabled=EncodingAPI] attribute TextEncoderConstructor TextEncoder;
+    [RuntimeEnabled=NetworkInformation] attribute NetworkInformationConstructor NetworkInformation;
+    attribute WebSocketConstructor WebSocket;
+};

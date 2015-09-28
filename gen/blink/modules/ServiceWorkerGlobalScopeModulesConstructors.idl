@@ -1,0 +1,15 @@
+partial interface ServiceWorkerGlobalScope {
+    [RuntimeEnabled=EncodingAPI] attribute TextDecoderConstructor TextDecoder;
+    [RuntimeEnabled=EncodingAPI] attribute TextEncoderConstructor TextEncoder;
+    [RuntimeEnabled=NetworkInformation] attribute NetworkInformationConstructor NetworkInformation;
+    [RuntimeEnabled=ServiceWorker] attribute ClientConstructor Client;
+    [RuntimeEnabled=ServiceWorker] attribute FetchEventConstructor FetchEvent;
+    [RuntimeEnabled=ServiceWorker] attribute HeaderMapConstructor HeaderMap;
+    [RuntimeEnabled=ServiceWorker] attribute InstallEventConstructor InstallEvent;
+    [RuntimeEnabled=ServiceWorker] attribute InstallPhaseEventConstructor InstallPhaseEvent;
+    [RuntimeEnabled=ServiceWorker] attribute RequestConstructor Request;
+    [RuntimeEnabled=ServiceWorker] attribute ResponseConstructor Response;
+    [RuntimeEnabled=ServiceWorker] attribute ServiceWorkerClientsConstructor ServiceWorkerClients;
+    [RuntimeEnabled=ServiceWorker] attribute ServiceWorkerGlobalScopeConstructor ServiceWorkerGlobalScope;
+    attribute WebSocketConstructor WebSocket;
+};

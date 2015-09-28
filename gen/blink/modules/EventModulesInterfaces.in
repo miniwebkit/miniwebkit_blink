@@ -1,0 +1,27 @@
+namespace="Event"
+suffix="Modules"
+
+modules/device_light/DeviceLightEvent RuntimeEnabled=DeviceLightEnabled
+modules/device_orientation/DeviceMotionEvent 
+modules/device_orientation/DeviceOrientationEvent 
+modules/encryptedmedia/MediaKeyMessageEvent RuntimeEnabled=EncryptedMediaEnabled
+modules/encryptedmedia/MediaKeyNeededEvent RuntimeEnabled=EncryptedMediaEnabled
+modules/gamepad/GamepadEvent 
+modules/indexeddb/IDBVersionChangeEvent 
+modules/mediastream/MediaStreamEvent 
+modules/mediastream/MediaStreamTrackEvent 
+modules/mediastream/RTCDTMFToneChangeEvent 
+modules/mediastream/RTCDataChannelEvent 
+modules/mediastream/RTCIceCandidateEvent 
+modules/push_messaging/PushEvent RuntimeEnabled=PushMessagingEnabled
+modules/serviceworkers/FetchEvent RuntimeEnabled=ServiceWorkerEnabled
+modules/serviceworkers/InstallEvent RuntimeEnabled=ServiceWorkerEnabled
+modules/serviceworkers/InstallPhaseEvent RuntimeEnabled=ServiceWorkerEnabled
+modules/speech/SpeechRecognitionError 
+modules/speech/SpeechRecognitionEvent 
+modules/speech/SpeechSynthesisEvent RuntimeEnabled=SpeechSynthesisEnabled
+modules/webaudio/AudioProcessingEvent Conditional=WEB_AUDIO
+modules/webaudio/OfflineAudioCompletionEvent Conditional=WEB_AUDIO
+modules/webmidi/MIDIConnectionEvent RuntimeEnabled=WebMIDIEnabled
+modules/webmidi/MIDIMessageEvent RuntimeEnabled=WebMIDIEnabled
+modules/websockets/CloseEvent 

@@ -1,0 +1,16 @@
+partial interface ServiceWorkerGlobalScope {
+    attribute BlobConstructor Blob;
+    attribute EventSourceConstructor EventSource;
+    attribute FileConstructor File;
+    attribute FileReaderConstructor FileReader;
+    attribute FileReaderSyncConstructor FileReaderSync;
+    attribute FormDataConstructor FormData;
+    attribute ImageDataConstructor ImageData;
+    attribute MessageChannelConstructor MessageChannel;
+    attribute MessageEventConstructor MessageEvent;
+    attribute URLConstructor URL;
+    attribute WorkerGlobalScopeConstructor WorkerGlobalScope;
+    attribute WorkerLocationConstructor WorkerLocation;
+    attribute WorkerNavigatorConstructor WorkerNavigator;
+    attribute XMLHttpRequestConstructor XMLHttpRequest;
+};
